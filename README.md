@@ -8,18 +8,15 @@ Create your bot following the discord docs: https://discordpy.readthedocs.io/en/
 
 Install depdencies
 ```
-pip install python-dotenv
-pip install asyncio
-pip install discord 
-pip install re 
-pip install requests 
-pip install yt_dlp
+pip install poetry
+poetry init
 ```
 Create a .env file and set TOKEN="YOUR BOT'S TOKEN"
 
-##Start the bot 
+## Start the bot 
 ```
 python main.py
 ```
+
 
 
